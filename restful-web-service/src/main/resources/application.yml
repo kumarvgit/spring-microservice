@@ -1,0 +1,18 @@
+#debug: true
+#trace: true
+#logging:
+#  level:
+#    com.in28minutes: trace
+spring:
+  messages:
+    basename: messages
+  security:
+    user:
+      password: password
+      name: uname
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
